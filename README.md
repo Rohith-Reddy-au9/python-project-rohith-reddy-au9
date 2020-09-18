@@ -14,12 +14,13 @@ This is the my chess game output
 
 Reference links for instaling
 https://www.python.org/downloads/
+
 https://realpython.com/pygame-a-primer/
 
 For reference check this video
 https://drive.google.com/file/d/1qYCEpfj-7kKY5K_-A71zfxkvyc38MU0J/view?usp=sharing
 
-Author : Pulagam Rohith Reddy
+Pulagam Rohith Reddy
 
 
 
