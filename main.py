@@ -18,7 +18,7 @@ def load_images():
 def main():
     p.init()
     screen = p.display.set_mode((width, height))
-    screen.fill(p.Color("white"))
+    screen.fill(p.Color("light gray"))
     gs = chessEngine.GameStart()
     print(gs.board)
     load_images()
@@ -74,7 +74,7 @@ def draw_game_state(screen, gs):
 
 
 def draw_board(screen):
-    colors = [p.Color("white"), p.Color("light gray")]
+    colors = [p.Color("white"), p.Color("light green")]
     for r in range(dimension):
         for c in range(dimension):
             color = colors[((r+c) % 2)]  # 2nd row 5th column = 7 // 2 = 3 light gray color
